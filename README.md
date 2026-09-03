@@ -60,6 +60,7 @@ and Windows-style paths. CI runs the same script on every push.
 | Skill | Description |
 | --- | --- |
 | [`clean-comments`](skills/clean-comments/SKILL.md) | Removes or rewrites code comments so that every remaining comment follows the comment conventions from Robert C. Martin's Clean Code. Use when code is over-c... |
+| [`codex-review`](skills/codex-review/SKILL.md) | Reviews the current branch against its parent with codex exec review, then triages and fixes the findings, looping until the review is clean. Use when finish... |
 <!-- END SKILLS TABLE -->
 
 Regenerate this table with `./scripts/validate.py --update-readme`.

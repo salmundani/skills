@@ -32,7 +32,21 @@ description: >
 ```
 
 Optional keys: `metadata.author` / `metadata.version` for provenance, and `allowed-tools`
-to restrict a deliberately narrow skill.
+to pre-approve tools for the invoking turn.
+
+Every skill directory is also a slash command: `skills/clean-comments/` gives
+`/clean-comments`, and the directory name (not the `name` field) sets the command. Two
+frontmatter fields decide who may invoke it:
+
+- `disable-model-invocation: true` — explicit command only. Claude can't auto-load it, and
+  the description stays out of context until invoked. Use for anything with side effects or
+  where timing is yours to choose.
+- `user-invocable: false` — the inverse: background knowledge Claude loads on its own,
+  hidden from the `/` menu.
+
+These are Claude Code-only fields. A skill using them still loads fine here, but packaging
+it for claude.ai or the Skills API fails, since that path allows only `name`,
+`description`, `license`, `compatibility`, `metadata`, and `allowed-tools`.
 
 **The description is the whole discovery mechanism.** Only `name` and `description` are
 preloaded; Claude picks the skill from these alone. Third person, what it does *and* the

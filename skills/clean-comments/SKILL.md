@@ -5,6 +5,7 @@ description: >
   comment conventions from Robert C. Martin's Clean Code. Use when code is
   over-commented, or when the user asks to clean up, prune, trim, or fix
   comments in a file or diff.
+disable-model-invocation: true
 metadata:
   author: salmundani
   version: "0.1.0"

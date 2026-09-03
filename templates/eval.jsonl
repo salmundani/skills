@@ -1,0 +1,3 @@
+{"skills": ["SKILL_NAME"], "query": "TODO: a request a user would really type", "files": [], "expected_behavior": ["TODO: observable behavior 1", "TODO: observable behavior 2", "TODO: observable behavior 3"]}
+{"skills": ["SKILL_NAME"], "query": "TODO: a variation that stresses a different rule", "files": [], "expected_behavior": ["TODO", "TODO"]}
+{"skills": ["SKILL_NAME"], "query": "TODO: an edge case where the skill should NOT overreach", "files": [], "expected_behavior": ["TODO"]}

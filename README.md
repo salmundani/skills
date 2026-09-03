@@ -42,7 +42,7 @@ $EDITOR skills/reviewing-migrations/SKILL.md
 ./scripts/validate.py
 ```
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the authoring conventions this repo follows.
+See [CLAUDE.md](CLAUDE.md) for the authoring conventions this repo follows.
 
 ## Validate
 

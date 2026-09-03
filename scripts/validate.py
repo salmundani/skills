@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the skills in this repo against the authoring rules in CONTRIBUTING.md.
+"""Validate the skills in this repo against the authoring rules in CLAUDE.md.
 
 Usage:
     ./scripts/validate.py                    # all skills under skills/

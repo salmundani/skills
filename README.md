@@ -59,7 +59,7 @@ and Windows-style paths. CI runs the same script on every push.
 <!-- BEGIN SKILLS TABLE -->
 | Skill | Description |
 | --- | --- |
-| _none yet_ | |
+| [`clean-comments`](skills/clean-comments/SKILL.md) | Removes or rewrites code comments so that every remaining comment follows the comment conventions from Robert C. Martin's Clean Code. Use when code is over-c... |
 <!-- END SKILLS TABLE -->
 
 Regenerate this table with `./scripts/validate.py --update-readme`.
